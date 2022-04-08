@@ -1,0 +1,3 @@
+shcemat modułu waveshare
+
+https://www.waveshare.com/w/upload/d/d7/RPi-Relay-Board-Schematic.pdf

@@ -1,0 +1,420 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 2650 3050
+Wire Wire Line
+	2150 3050 2650 3050
+Wire Wire Line
+	2150 2850 2150 3050
+Wire Wire Line
+	2150 2750 2250 2750
+Wire Wire Line
+	3950 2950 3950 3150
+Wire Wire Line
+	4400 3100 4400 3150
+Wire Wire Line
+	4750 3100 4750 3150
+$Comp
+L power:GND #PWR?
+U 1 1 626A6995
+P 4750 3150
+AR Path="/626A6995" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A6995" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 2900 50  0001 C CNN
+F 1 "GND" H 4755 2977 50  0000 C CNN
+F 2 "" H 4750 3150 50  0001 C CNN
+F 3 "" H 4750 3150 50  0001 C CNN
+	1    4750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 626A699B
+P 4400 3150
+AR Path="/626A699B" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A699B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 2900 50  0001 C CNN
+F 1 "GND" H 4405 2977 50  0000 C CNN
+F 2 "" H 4400 3150 50  0001 C CNN
+F 3 "" H 4400 3150 50  0001 C CNN
+	1    4400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2750 4850 2750
+Connection ~ 4750 2750
+Wire Wire Line
+	4750 2800 4750 2750
+Connection ~ 4400 2750
+Wire Wire Line
+	4400 2750 4750 2750
+Wire Wire Line
+	4400 2750 4400 2800
+Wire Wire Line
+	4350 2750 4400 2750
+$Comp
+L Device:CP C?
+U 1 1 626A69A8
+P 4750 2950
+AR Path="/626A69A8" Ref="C?"  Part="1" 
+AR Path="/62696909/626A69A8" Ref="C?"  Part="1" 
+F 0 "C?" H 4868 2996 50  0000 L CNN
+F 1 "22uF" H 4868 2905 50  0000 L CNN
+F 2 "" H 4788 2800 50  0001 C CNN
+F 3 "~" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 626A69AE
+P 4400 2950
+AR Path="/626A69AE" Ref="C?"  Part="1" 
+AR Path="/62696909/626A69AE" Ref="C?"  Part="1" 
+F 0 "C?" H 4200 3000 50  0000 L CNN
+F 1 "10uF" H 4100 2900 50  0000 L CNN
+F 2 "" H 4438 2800 50  0001 C CNN
+F 3 "~" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2750 4050 2750
+$Comp
+L Device:Fuse F?
+U 1 1 626A69B5
+P 4200 2750
+AR Path="/626A69B5" Ref="F?"  Part="1" 
+AR Path="/62696909/626A69B5" Ref="F?"  Part="1" 
+F 0 "F?" V 4003 2750 50  0000 C CNN
+F 1 "Fuse" V 4094 2750 50  0000 C CNN
+F 2 "" V 4130 2750 50  0001 C CNN
+F 3 "~" H 4200 2750 50  0001 C CNN
+	1    4200 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 3050 3150 2950
+Wire Wire Line
+	2650 3050 3150 3050
+Wire Wire Line
+	2650 2750 2750 2750
+Connection ~ 2650 2750
+Wire Wire Line
+	2550 2750 2650 2750
+$Comp
+L Device:Fuse F?
+U 1 1 626A69C0
+P 2900 2750
+AR Path="/626A69C0" Ref="F?"  Part="1" 
+AR Path="/62696909/626A69C0" Ref="F?"  Part="1" 
+F 0 "F?" V 2703 2750 50  0000 C CNN
+F 1 "Termal Fuse" V 2794 2750 50  0000 C CNN
+F 2 "" V 2830 2750 50  0001 C CNN
+F 3 "~" H 2900 2750 50  0001 C CNN
+	1    2900 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Varistor RV?
+U 1 1 626A69C6
+P 2650 2900
+AR Path="/626A69C6" Ref="RV?"  Part="1" 
+AR Path="/62696909/626A69C6" Ref="RV?"  Part="1" 
+F 0 "RV?" H 2753 2946 50  0000 L CNN
+F 1 "Varistor" H 2753 2855 50  0000 L CNN
+F 2 "" V 2580 2900 50  0001 C CNN
+F 3 "~" H 2650 2900 50  0001 C CNN
+	1    2650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2750 3150 2750
+$Comp
+L Device:Fuse F?
+U 1 1 626A69CD
+P 2400 2750
+AR Path="/626A69CD" Ref="F?"  Part="1" 
+AR Path="/62696909/626A69CD" Ref="F?"  Part="1" 
+F 0 "F?" V 2203 2750 50  0000 C CNN
+F 1 "Fuse" V 2294 2750 50  0000 C CNN
+F 2 "" V 2330 2750 50  0001 C CNN
+F 3 "~" H 2400 2750 50  0001 C CNN
+	1    2400 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 626A69D3
+P 3950 3150
+AR Path="/626A69D3" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A69D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 2900 50  0001 C CNN
+F 1 "GND" H 3955 2977 50  0000 C CNN
+F 2 "" H 3950 3150 50  0001 C CNN
+F 3 "" H 3950 3150 50  0001 C CNN
+	1    3950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 626A69D9
+P 1950 2850
+AR Path="/626A69D9" Ref="J?"  Part="1" 
+AR Path="/62696909/626A69D9" Ref="J?"  Part="1" 
+F 0 "J?" H 1868 2525 50  0000 C CNN
+F 1 "230VAC" H 1868 2616 50  0000 C CNN
+F 2 "" H 1950 2850 50  0001 C CNN
+F 3 "~" H 1950 2850 50  0001 C CNN
+	1    1950 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Converter_ACDC:HLK-PM03 PS?
+U 1 1 626A69DF
+P 3550 2850
+AR Path="/626A69DF" Ref="PS?"  Part="1" 
+AR Path="/62696909/626A69DF" Ref="PS?"  Part="1" 
+F 0 "PS?" H 3550 3175 50  0000 C CNN
+F 1 "HLK-PM05" H 3550 3084 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx" H 3550 2550 50  0001 C CNN
+F 3 "http://www.hlktech.net/product_detail.php?ProId=59" H 3950 2500 50  0001 C CNN
+	1    3550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2800 6450 2750
+Wire Wire Line
+	6450 3100 6450 3150
+Connection ~ 6450 3100
+Wire Wire Line
+	6450 3050 6450 3100
+$Comp
+L power:GND #PWR?
+U 1 1 626A69E9
+P 6450 3150
+AR Path="/626A69E9" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A69E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6450 2900 50  0001 C CNN
+F 1 "GND" H 6455 2977 50  0000 C CNN
+F 2 "" H 6450 3150 50  0001 C CNN
+F 3 "" H 6450 3150 50  0001 C CNN
+	1    6450 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 2750
+Wire Wire Line
+	6450 2750 6550 2750
+Wire Wire Line
+	6350 2750 6450 2750
+$Comp
+L Device:C C?
+U 1 1 626A69F2
+P 6450 2950
+AR Path="/626A69F2" Ref="C?"  Part="1" 
+AR Path="/62696909/626A69F2" Ref="C?"  Part="1" 
+F 0 "C?" H 6565 2996 50  0000 L CNN
+F 1 "10uF" H 6565 2905 50  0000 L CNN
+F 2 "" H 6488 2800 50  0001 C CNN
+F 3 "~" H 6450 2950 50  0001 C CNN
+	1    6450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3050 6050 3150
+Wire Wire Line
+	6550 2550 6550 2750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 626A69FA
+P 6550 2550
+AR Path="/626A69FA" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A69FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 2400 50  0001 C CNN
+F 1 "+3.3V" H 6565 2723 50  0000 C CNN
+F 2 "" H 6550 2550 50  0001 C CNN
+F 3 "" H 6550 2550 50  0001 C CNN
+	1    6550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 626A6A00
+P 6050 3150
+AR Path="/626A6A00" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A6A00" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6050 2900 50  0001 C CNN
+F 1 "GND" H 6055 2977 50  0000 C CNN
+F 2 "" H 6050 3150 50  0001 C CNN
+F 3 "" H 6050 3150 50  0001 C CNN
+	1    6050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1117-3.3 U?
+U 1 1 626A6A06
+P 6050 2750
+AR Path="/626A6A06" Ref="U?"  Part="1" 
+AR Path="/62696909/626A6A06" Ref="U?"  Part="1" 
+F 0 "U?" H 6050 2992 50  0000 C CNN
+F 1 "LM1117-3.3" H 6050 2901 50  0000 C CNN
+F 2 "" H 6050 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 6050 2750 50  0001 C CNN
+	1    6050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2550 4850 2750
+$Comp
+L power:+5V #PWR?
+U 1 1 626A6A0D
+P 4850 2550
+AR Path="/626A6A0D" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A6A0D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 2400 50  0001 C CNN
+F 1 "+5V" H 4865 2723 50  0000 C CNN
+F 2 "" H 4850 2550 50  0001 C CNN
+F 3 "" H 4850 2550 50  0001 C CNN
+	1    4850 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2550 5650 2750
+$Comp
+L power:+5V #PWR?
+U 1 1 626A6A14
+P 5650 2550
+AR Path="/626A6A14" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626A6A14" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 2400 50  0001 C CNN
+F 1 "+5V" H 5665 2723 50  0000 C CNN
+F 2 "" H 5650 2550 50  0001 C CNN
+F 3 "" H 5650 2550 50  0001 C CNN
+	1    5650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2750 5750 2750
+$Comp
+L Device:C C?
+U 1 1 626AED0C
+P 7500 2800
+AR Path="/626AED0C" Ref="C?"  Part="1" 
+AR Path="/62696909/626AED0C" Ref="C?"  Part="1" 
+F 0 "C?" H 7615 2846 50  0000 L CNN
+F 1 "10uF" H 7615 2755 50  0000 L CNN
+F 2 "" H 7538 2650 50  0001 C CNN
+F 3 "~" H 7500 2800 50  0001 C CNN
+	1    7500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 626AED12
+P 8000 2800
+AR Path="/626AED12" Ref="C?"  Part="1" 
+AR Path="/62696909/626AED12" Ref="C?"  Part="1" 
+F 0 "C?" H 8115 2846 50  0000 L CNN
+F 1 "100nF" H 8115 2755 50  0000 L CNN
+F 2 "" H 8038 2650 50  0001 C CNN
+F 3 "~" H 8000 2800 50  0001 C CNN
+	1    8000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 626AED18
+P 8550 2800
+AR Path="/626AED18" Ref="C?"  Part="1" 
+AR Path="/62696909/626AED18" Ref="C?"  Part="1" 
+F 0 "C?" H 8665 2846 50  0000 L CNN
+F 1 "100nF" H 8665 2755 50  0000 L CNN
+F 2 "" H 8588 2650 50  0001 C CNN
+F 3 "~" H 8550 2800 50  0001 C CNN
+	1    8550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 626AED1E
+P 9050 2800
+AR Path="/626AED1E" Ref="C?"  Part="1" 
+AR Path="/62696909/626AED1E" Ref="C?"  Part="1" 
+F 0 "C?" H 9165 2846 50  0000 L CNN
+F 1 "100nF" H 9165 2755 50  0000 L CNN
+F 2 "" H 9088 2650 50  0001 C CNN
+F 3 "~" H 9050 2800 50  0001 C CNN
+	1    9050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2650 8000 2650
+Wire Wire Line
+	8000 2650 8300 2650
+Connection ~ 8000 2650
+Wire Wire Line
+	8550 2650 9050 2650
+Connection ~ 8550 2650
+Wire Wire Line
+	7500 2950 8000 2950
+Wire Wire Line
+	8000 2950 8300 2950
+Connection ~ 8000 2950
+Wire Wire Line
+	8550 2950 9050 2950
+Connection ~ 8550 2950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 626AED2E
+P 8300 2650
+AR Path="/626AED2E" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626AED2E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 2500 50  0001 C CNN
+F 1 "+3.3V" H 8315 2823 50  0000 C CNN
+F 2 "" H 8300 2650 50  0001 C CNN
+F 3 "" H 8300 2650 50  0001 C CNN
+	1    8300 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 2650
+Wire Wire Line
+	8300 2650 8550 2650
+$Comp
+L power:GND #PWR?
+U 1 1 626AED36
+P 8300 2950
+AR Path="/626AED36" Ref="#PWR?"  Part="1" 
+AR Path="/62696909/626AED36" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 2700 50  0001 C CNN
+F 1 "GND" H 8305 2777 50  0000 C CNN
+F 2 "" H 8300 2950 50  0001 C CNN
+F 3 "" H 8300 2950 50  0001 C CNN
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 2950
+Wire Wire Line
+	8300 2950 8550 2950
+Wire Notes Line
+	1750 2350 3500 2350
+Wire Notes Line
+	3500 2350 3500 3300
+Wire Notes Line
+	3500 3300 1750 3300
+Wire Notes Line
+	1750 3300 1750 2350
+Text Notes 1750 2350 0    79   ~ 16
+HIGH VOLTAGE 230V
+$EndSCHEMATC
